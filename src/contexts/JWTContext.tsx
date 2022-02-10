@@ -123,7 +123,7 @@ function AuthProvider({ children }: { children: ReactNode }) {
       Username: email,
       Password: password
     });
-    const { accessToken, user } = response.data;
+    const { user } = response.data;
 
     // setSession(accessToken);
     dispatch({
