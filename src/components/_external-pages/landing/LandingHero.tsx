@@ -4,8 +4,6 @@ import flashFill from '@iconify/icons-eva/flash-fill';
 // material
 import { styled } from '@mui/material/styles';
 import { Button, Box, Link, Container, Typography, Stack, StackProps } from '@mui/material';
-// routes
-import { PATH_DASHBOARD } from '../../../routes/paths';
 //
 import { varFadeIn, varFadeInUp, varWrapEnter, varFadeInRight } from '../../animate';
 
